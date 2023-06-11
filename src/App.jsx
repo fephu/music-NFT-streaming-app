@@ -1,15 +1,16 @@
 //import { Routes, Route } from 'react-router-dom'
+import DefaultLayout from "./layouts/DefaulyLayout/DefaultLayout"
 
 function App() {
   
   return (
-    <div className='bg-red-400'>
+    <div className=''>
       {/* <Routes>
         <Route>
           
         </Route>
       </Routes> */}
-      app
+      <DefaultLayout />
     </div>
   )
 }
