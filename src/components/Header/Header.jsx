@@ -6,7 +6,9 @@ function Header() {
    return ( 
       <div className="h-16 top-0 sticky">
          <nav className="flex h-full justify-center items-center" >
-            <div>logo</div>
+            <div className="w-10 h-10 relative flex items-center ">
+                  <img src="https://res.cloudinary.com/dnj5kt9rv/image/upload/v1686565340/Logo3_adobe_express_u3g3wd.svg"/>          
+            </div>
             <div>
                <div className="flex">
                      <div className="h-8 ">
@@ -58,6 +60,29 @@ function Header() {
                </li>
             </ul>
          </nav>
+         <div className="w-full flex items-center mx-0 mt-6 mb-8">
+               <nav className="w-full flex">
+                  <ul className="flex py-0 pr-2 pl-2 justify-start w-full items-center ">
+                     <div className="gap-2 -ml-2 flex">
+                        <li className="relative">
+                           <a className="flex py-2 px-4 cursor-pointer text-white font-extrabold" href="/">
+                              <span className="text-left">Song</span>
+                           </a>
+                        </li>
+                        <li className="relative">
+                           <a className="flex py-2 px-4 cursor-pointer text-white font-extrabold" href="/">
+                              <span className="text-left">Author</span>
+                           </a>
+                        </li>
+                        <li className="relative">
+                           <a className="flex py-2 px-4 cursor-pointer text-white font-extrabold" href="/">
+                              <span className="text-left">Kind of music</span>
+                           </a>
+                        </li>
+                     </div>
+                  </ul>
+               </nav>
+         </div>
       </div>
     );
 }
