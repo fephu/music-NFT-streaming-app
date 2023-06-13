@@ -6,7 +6,7 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
-  height: '600px',
+  height: '500px',
   borderRadius: '1rem'
 
 }

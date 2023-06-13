@@ -1,5 +1,7 @@
 import {FaArrowDown} from 'react-icons/fa'
 import Products from './Products/Product';
+import Category from './Category/Category';
+import WhatThis from './WhatThis/WhatThis';
 
 function Content() {
    return ( 
@@ -65,6 +67,13 @@ function Content() {
       <div className='mr-12 '>
             <Products />
       </div>
+      <div className='flex'>
+         <Category />
+      </div>
+      <div className='flex'>
+         <WhatThis />
+      </div>
+
    </div> );
 }
 

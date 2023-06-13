@@ -4,10 +4,10 @@ import {MdOutlineLocalGroceryStore} from 'react-icons/md';
 
 function Header() {
    return ( 
-      <div className="h-16 top-0 sticky">
+      <div className="h-16 top-0 sticky ">
          <nav className="flex h-full justify-center items-center" >
-            <div className="w-10 h-10 relative flex items-center ">
-                  <img src="https://res.cloudinary.com/dnj5kt9rv/image/upload/v1686565340/Logo3_adobe_express_u3g3wd.svg"/>          
+            <div className="w-16 h-16 relative flex items-center ">
+                  <img src="https://res.cloudinary.com/dnj5kt9rv/image/upload/v1686643842/3B_1_xxig9w.svg"/>          
             </div>
             <div>
                <div className="flex">
