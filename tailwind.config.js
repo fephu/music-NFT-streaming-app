@@ -11,6 +11,9 @@ export default {
     width: {
       'calc-60-32': 'calc(60% - 32px)',
     },
+    flexGrow: {
+      4: '4'
+    }
   },
   },
   plugins: [],

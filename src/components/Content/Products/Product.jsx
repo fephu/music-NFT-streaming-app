@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import {MdVerified} from 'react-icons/md';
 
 function Products() {
@@ -21,50 +22,52 @@ function Products() {
       </div>
       <div className="relative w-full h-96 max-w-full max-h-96 ">
          <div className=" w-full absolute">
-            <div className="block">
-               <a className="cursor-pointer w-full py-3 px-2 relative justify-between font-semibold text-left flex" href="/">
-                  <div className="flex w-3/5 justify-start basis-8/12 items-center cursor-pointer font-semibold">
-                     <div className="flex items-center ">
-                        <div className="block ">
-                           <div className="mr-2 w-6 block">
-                              <span>1</span>
+            <Link to="/DetailMusic">
+               <div className="block">
+                  <a className="cursor-pointer w-full py-3 px-2 relative justify-between font-semibold text-left flex" href="/">
+                     <div className="flex w-3/5 justify-start basis-8/12 items-center cursor-pointer font-semibold">
+                        <div className="flex items-center ">
+                           <div className="block ">
+                              <div className="mr-2 w-6 block">
+                                 <span>1</span>
+                              </div>
                            </div>
-                        </div>
-                        <div className="block cursor-pointer">
-                           <div className="flex justify-center items-center">
-                              <div className="w-20 h-20 relative rounded-xl">
-                                 <span className="">
-                                    <img className="absolute object-cover" src="https://seed-mix-image.spotifycdn.com/v6/img/artist/1LEtM3AleYg1xabW6CRkpi/en/default"></img>
+                           <div className="block cursor-pointer">
+                              <div className="flex justify-center items-center">
+                                 <div className="w-20 h-20 relative rounded-xl">
+                                    <span className="">
+                                       <img className="absolute object-cover" src="https://seed-mix-image.spotifycdn.com/v6/img/artist/1LEtM3AleYg1xabW6CRkpi/en/default"></img>
+                                    </span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div className="pl-6 items-start self-center flex-row flex">
+                              <div className="block">
+                                 <span className="font-semibold">
+                                    <div className="flex items-center max-w-sm">
+                                       <div className="w-full text-ellipsis whitespace-nowrap">Nấu cho em ăn</div>
+                                    </div>
                                  </span>
+                              </div>
+                              <div className="inline-flex ml-1 align-middle">
+                                 <MdVerified className='w-5 h-5' style={{ color: 'blue' }}/>
                               </div>
                            </div>
                         </div>
-                        <div className="pl-6 items-start self-center flex-row flex">
-                           <div className="block">
-                              <span className="font-semibold">
-                                 <div className="flex items-center max-w-sm">
-                                    <div className="w-full text-ellipsis whitespace-nowrap">Nấu cho em ăn</div>
-                                 </div>
-                              </span>
-                           </div>
-                           <div className="inline-flex ml-1 align-middle">
-                              <MdVerified className='w-5 h-5' style={{ color: 'blue' }}/>
-                           </div>
-                        </div>
                      </div>
-                  </div>
-                  <div className='w-1/5 flex items-center justify-end'>
-                     <span className='font-semibold'>
-                        <div className='w-full text-ellipsis'>0.07 ETH</div>
-                     </span>
-                  </div>
-                  <div className='w-1/5 flex items-center justify-end'>
-                     <span className='font-semibold'>
-                        <div className='w-full text-ellipsis'>0.37 ETH</div>
-                     </span>
-                  </div>
-               </a>
-            </div>
+                     <div className='w-1/5 flex items-center justify-end'>
+                        <span className='font-semibold'>
+                           <div className='w-full text-ellipsis'>0.07 ETH</div>
+                        </span>
+                     </div>
+                     <div className='w-1/5 flex items-center justify-end'>
+                        <span className='font-semibold'>
+                           <div className='w-full text-ellipsis'>0.37 ETH</div>
+                        </span>
+                     </div>
+                  </a>
+               </div>
+            </Link>
 
             <div className="block">
                <a className="cursor-pointer w-full py-3 px-2 relative justify-between font-semibold text-left flex" href="/">

@@ -64,7 +64,7 @@ function Footer() {
             <div className="relative w-16 h-16 ">
                <img src='https://res.cloudinary.com/dnj5kt9rv/image/upload/v1686643842/3B_1_xxig9w.svg'></img>
             </div>
-            <div className="text-xl font-semibold my-2 ">Music-NFT-streaming-app</div>
+            <div className="text-xl font-semibold my-2 ">Music-NFTs-streaming-app</div>
             <div className="text-base">The world first and largest digital marketplace for electronic music collections and non-fungible tokens (NFTs). Buy, sell and discover exclusive digital items.</div>
          </div>
          {/* <div className="flex w-1/2 pt-10 pl-16 text-left items-start flex-col text-white justify-around">
