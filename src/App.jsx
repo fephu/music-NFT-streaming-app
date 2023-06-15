@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
-import DetailPage from './pages/DetailPage/DetailPage';
+import DetailPage from './pages/DetailAuthor/DetailAuthor';
 import DetailMusic from './pages/DetailMusic/DetailMusic';
 
 function App() {

@@ -2,13 +2,12 @@ import {BsShareFill} from 'react-icons/bs'
 import {AiOutlineHeart, AiOutlineEye, AiOutlineClockCircle, AiOutlineShoppingCart} from 'react-icons/ai'
 import {MdVerified} from 'react-icons/md';
 
-
 function InfMusic() {
    return ( 
       <div className="flex items-center flex-row w-full ">
          <div className="flex">
                <div className="w-2/4">
-                  <article className="mr-5 my-5 rounded-xl border-2 border-solid ">
+                  <article className="mr-5 my-5 rounded-xl border-2 border-solid bg-white">
                      <header className="flex items-center font-medium h-11 w-full p-3 justify-between ">
                         <div className="">
                            <button><BsShareFill /></button>
@@ -35,13 +34,13 @@ function InfMusic() {
                      <div className='flex items-center w-full mb-1'>
                         <div className='overflow-hidden text-ellipsis whitespace-nowrap items-center'>
                            <div className='flex flex-row '>
-                              <span className='text-blue-600'>KINGSHIP</span>
+                              <span className='text-blue-600'>Đen Vâu</span>
                               <MdVerified className='w-5 h-5 ml-2' style={{ color: 'blue' }}/>
                            </div>
                         </div>
                      </div>
                      <div className='flex items-center'>
-                        <h1 className='w-full text-3xl font-semibold'>KINGSHIP #1234</h1>
+                        <h1 className='w-full text-3xl font-semibold'>Nấu cho em ăn</h1>
                      </div>
                      <div className='flex items-center mt-1'>
                         <h1 className='w-full text-lage '>Owned by <span className='text-blue-500'>Cnnmm</span></h1>
@@ -51,7 +50,7 @@ function InfMusic() {
                   <section className='my-6 mx-5 flex flex-wrap'>
                      <div className='my-2 mr-6 flex '>
                         <div className='block'>
-                           <div className='px-2 h-7 border-2 border-solid rounded-lg border-neutral-300'>
+                           <div className='px-2 h-7 border-2 border-solid rounded-lg border-neutral-300 bg-white'>
                               <div className='inline-flex h-4 w-4 relative items-center justify-center font-semibold'># </div>
                               <span className='ml-1'>4.227</span>
                            </div>
@@ -66,7 +65,7 @@ function InfMusic() {
                      <div></div>
                   </section>
 
-                  <div className='m-5 block max-w-full'>
+                  <div className='m-5 block max-w-full bg-white shadow-xl'>
                      <div className='w-full'>
                         <section className='w-96 border-2 border-solid rounded-lg border-neutral-300'>
                            <div className='rounded-t-xl border-b-2 border-neutral-300 p-5 '>

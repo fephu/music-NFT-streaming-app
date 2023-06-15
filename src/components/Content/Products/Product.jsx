@@ -22,7 +22,7 @@ function Products() {
       </div>
       <div className="relative w-full h-96 max-w-full max-h-96 ">
          <div className=" w-full absolute">
-            <Link to="/DetailMusic">
+            <Link to="/DetailAuthor">
                <div className="block">
                   <a className="cursor-pointer w-full py-3 px-2 relative justify-between font-semibold text-left flex" href="/">
                      <div className="flex w-3/5 justify-start basis-8/12 items-center cursor-pointer font-semibold">
@@ -82,7 +82,7 @@ function Products() {
                            <div className="flex justify-center items-center">
                               <div className="w-20 h-20 relative rounded-xl">
                                  <span className="">
-                                    <img className="absolute object-cover" src="https://i.scdn.co/image/ab67616d0000b2737f62da16cf9ea3a6a90cedcb"></img>
+                                    <img className="absolute object-cover" src="https://i.scdn.co/image/ab67616d00001e021b763f5b1cb21269b6d653c5"></img>
                                  </span>
                               </div>
                            </div>
@@ -91,7 +91,7 @@ function Products() {
                            <div className="block">
                               <span className="font-semibold">
                                  <div className="flex items-center max-w-sm">
-                                    <div className="w-full text-ellipsis whitespace-nowrap">Làm sao để quên anh</div>
+                                    <div className="w-full text-ellipsis whitespace-nowrap">Là vì ai</div>
                                  </div>
                               </span>
                            </div>
@@ -126,7 +126,7 @@ function Products() {
                            <div className="flex justify-center items-center">
                               <div className="w-20 h-20 relative rounded-xl">
                                  <span className="">
-                                    <img className="absolute object-cover" src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb52e4f3bc88ce00be25c5f747/4/vi/default"></img>
+                                    <img className="absolute object-cover" src="https://i.scdn.co/image/ab67616d00001e020b303433c40b65a63dec0a04"></img>
                                  </span>
                               </div>
                            </div>
@@ -135,7 +135,7 @@ function Products() {
                            <div className="block">
                               <span className="font-semibold">
                                  <div className="flex items-center max-w-sm">
-                                    <div className="w-full text-ellipsis whitespace-nowrap">Lan Man</div>
+                                    <div className="w-full text-ellipsis whitespace-nowrap">Waking My Way</div>
                                  </div>
                               </span>
                            </div>

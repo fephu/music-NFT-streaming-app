@@ -5,11 +5,11 @@ import Content from '../../components/Content/Content';
 
 function HomePage() {
    return ( 
-   <div className="bg-gradient-to-b from-neutral-500 from-20% via-neutral-100 via-50% to-neutral-100 to-40%">
-      <div className="px-16 py-0">
-         <div className=""><Header /></div>
-         <div className=" pt-20 w-full pb-20"><SlideShow /></div>
-         <div><Content /></div>
+   <div className="bg-neutral-100">
+      <div className=" py-0 ">
+         <div className="w-full px-16 shadow-lg "><Header /></div>
+         <div className="px-16 pt-20 w-full pb-20"><SlideShow /></div>
+         <div className="px-16"><Content /></div>
       </div>
       <div className="w-full bg-blue-700 ">
          <Footer />
