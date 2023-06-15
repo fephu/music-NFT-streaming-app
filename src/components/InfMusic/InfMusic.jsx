@@ -1,6 +1,7 @@
 import {BsShareFill} from 'react-icons/bs'
 import {AiOutlineHeart, AiOutlineEye, AiOutlineClockCircle, AiOutlineShoppingCart} from 'react-icons/ai'
 import {MdVerified} from 'react-icons/md';
+import {Link} from 'react-router-dom';
 
 function InfMusic() {
    return ( 
@@ -21,7 +22,7 @@ function InfMusic() {
                            <div className="w-full h-full">
                               <div className="">
                                  <video controls className="object-cover rounded-b-xl rounded-bl-xl">
-                                    <source src="https://openseauserdata.com/files/e57b57ff972e977e4f0d64352e0ec56e.mp4#t=0.001"></source>
+                                    <source src="https://res.cloudinary.com/dnj5kt9rv/video/upload/v1686837744/NFT_Music_hgo8jb.mp4"></source>
                                  </video>
                               </div>
                            </div>
@@ -33,10 +34,12 @@ function InfMusic() {
                   <section className='mx-5 mt-5 mb-4 flex flex-col flex-wrap w-full'>
                      <div className='flex items-center w-full mb-1'>
                         <div className='overflow-hidden text-ellipsis whitespace-nowrap items-center'>
-                           <div className='flex flex-row '>
-                              <span className='text-blue-600'>Đen Vâu</span>
-                              <MdVerified className='w-5 h-5 ml-2' style={{ color: 'blue' }}/>
-                           </div>
+                        <Link to='/DetailAuthor'>
+                              <div className='flex flex-row '>
+                                 <span className='text-blue-600'>Đen Vâu</span>
+                                 <MdVerified className='w-5 h-5 ml-2' style={{ color: 'blue' }}/>
+                              </div>
+                        </Link>
                         </div>
                      </div>
                      <div className='flex items-center'>

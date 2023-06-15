@@ -4,7 +4,6 @@ import {BsShareFill} from 'react-icons/bs'
 import {MdMoreHoriz, MdVerified} from 'react-icons/md'
 import DesAuthor from '../../DesAuthor/DesAuthor';
 
-
 function InfAuthor() {
    return ( 
    <div className="flex h-full flex-col grow shrink mt-5 ">
@@ -34,9 +33,9 @@ function InfAuthor() {
                         <div className="flex w-full items-start">
                            <div className="max-w-xs ">
                               <div className="flex items-center gap-y-1 gap-x-1">
-                                 <div className="block">
-                                    <h1 className="font-semibold text-3xl">Đen Vâu</h1>
-                                 </div>
+                                    <div className="block">
+                                       <h1 className="font-semibold text-3xl">Đen Vâu</h1>
+                                    </div>
                                  <div className="items-center">
                                           <MdVerified className='mx-1 text-3xl' style={{ color: 'blue' }}/>
                                  </div>
